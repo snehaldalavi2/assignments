@@ -2,12 +2,16 @@
 {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 .container
 {
     margin-right:150px;
     margin-left: 150px;
+}
+.color
+{
+    color: #6625d2;
 }
 /* 1st section */
 
@@ -282,7 +286,6 @@ h2
     color: #f04e34;
     font-weight: bolder;
     margin-bottom: 0px;
-   margin-left: 30px;
 }
 .h4-1
 {
@@ -431,4 +434,130 @@ h3{
     position: absolute;
     left:340px;
     top:345px;
+}
+
+/* 6th box */
+.div-grid-3
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-top: 20px;
+    grid-column-gap: 50px;
+}
+.flx-5
+{
+    display:flex;
+    gap:20px;
+}
+.h3-6th
+{
+    color: black !important;
+    margin-bottom: 0px !important;
+}
+.icon-6th
+{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #6625d2;
+}
+.para-6th
+{
+    font-size:16px;
+    font-weight: bold;
+}
+input
+{
+    width:220px;
+    height:20px;
+    border: #6625d2 3px solid;
+    border-radius: 5px;
+    padding:10px;
+}
+.input-next
+{
+    width:486px;
+    height:20px;
+    border: #6625d2 3px solid;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 30px;
+}
+.input-textarea
+{
+    width:486px;
+    border: #6625d2 3px solid;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 30px;
+    resize: none;
+}
+.btn-6th
+{
+    padding-left: 25px;
+}
+.flx-btn-6th
+{
+    display: flex;
+    gap:15px;
+}
+.arrow-2
+{
+    color: white;
+    font-size: 20px;
+}
+
+/* 7th box */
+.flx-7th
+{
+    display:flex;
+    gap:25px;
+}
+.h2-7th
+{
+    color: black;
+}
+.btn-size-7th
+{
+    height:35px ;
+    width:150px;
+    border-radius: 8px;
+}
+.flx-4-7th
+{
+    display:flex;
+    gap:30px;
+    margin-top: 5px;
+}
+.div-margin-footer
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e9defb;
+}
+hr
+{
+    color:#9c82c7;
+}
+.list
+{
+    list-style-type: none;
+}
+li
+{
+    color:#858586;
+    font-size: 14px;
+    margin-left: -2px;
+    margin-bottom: 20px;
+}
+.span-1
+{
+    margin-top: 20px;
+}
+.list-flx
+{
+    display:flex;
+    gap:80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
