@@ -1,0 +1,14 @@
+.div-margin
+{
+    margin-bottom: 100px;
+}
+.container
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav-flx
+{
+    display:flex;
+    gap:20px;
+}
